@@ -7,7 +7,7 @@
 }
 
 .auth-form {
-  background: white;
+  background-color: #5a6b5d; /* slightly darker than XANADU - matching poll container */
   padding: 2rem;
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -18,7 +18,7 @@
 .auth-form h2 {
   text-align: center;
   margin-bottom: 1.5rem;
-  color: #333;
+  color: #fff;
 }
 
 .form-group {
@@ -29,7 +29,7 @@
   display: block;
   margin-bottom: 0.5rem;
   font-weight: 500;
-  color: #555;
+  color: #e0e0e0;
 }
 
 .form-group input {
@@ -133,12 +133,12 @@
 .auth-link {
   text-align: center;
   margin-top: 1rem;
-  color: #666;
+  color: #e0e0e0;
 }
 
 .auth-link a {
-  color: #007bff;
-  text-decoration: none;
+  color: #fff;
+  text-decoration: underline;
 }
 
 .auth-link a:hover {

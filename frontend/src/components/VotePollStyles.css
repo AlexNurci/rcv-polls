@@ -1,0 +1,217 @@
+.vote-poll-container {
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  min-height: calc(100vh - 200px);
+}
+
+.vote-poll-card {
+  background-color: #5a6b5d; /* slightly darker than XANADU */
+  border-radius: 8px;
+  padding: 2rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  max-width: 800px;
+}
+
+.poll-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.poll-header h1 {
+  color: #fff;
+  font-size: 2rem;
+  margin: 0;
+}
+
+.inactive-badge {
+  background-color: #6c757d;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+.creator-actions {
+  margin-bottom: 1.5rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.close-poll-btn {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: bold;
+  transition: background-color 0.2s;
+}
+
+.close-poll-btn:hover {
+  background-color: #c82333;
+}
+
+.poll-inactive-message {
+  text-align: center;
+  padding: 2rem;
+}
+
+.poll-inactive-message p {
+  color: #e0e0e0;
+  font-size: 1.2rem;
+}
+
+.vote-form h2 {
+  color: #fff;
+  margin-bottom: 1.5rem;
+  font-size: 1.3rem;
+}
+
+.rankings-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.ranking-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 4px;
+}
+
+.ranking-item label {
+  color: #fff;
+  font-size: 1.1rem;
+  flex: 1;
+}
+
+.ranking-item select {
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  min-width: 120px;
+}
+
+.ranking-item select:focus {
+  outline: none;
+  border-color: #007bff;
+  box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.25);
+}
+
+.submit-vote-btn {
+  width: 100%;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 1rem 2rem;
+  border-radius: 4px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.submit-vote-btn:hover:not(:disabled) {
+  background-color: #218838;
+}
+
+.submit-vote-btn:disabled {
+  background-color: #6c757d;
+  cursor: not-allowed;
+}
+
+.vote-success-message {
+  text-align: center;
+  padding: 2rem;
+}
+
+.vote-success-message p {
+  color: #28a745;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.results-container {
+  margin-top: 2rem;
+  padding: 1.5rem;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+}
+
+.results-container h3 {
+  color: #fff;
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+}
+
+.winner {
+  background-color: #28a745;
+  padding: 1rem;
+  border-radius: 4px;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.winner h4 {
+  color: #fff;
+  margin: 0;
+  font-size: 1.3rem;
+}
+
+.rounds {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.round {
+  background-color: rgba(255, 255, 255, 0.05);
+  padding: 1rem;
+  border-radius: 4px;
+}
+
+.round h4 {
+  color: #fff;
+  margin-bottom: 0.5rem;
+}
+
+.vote-counts {
+  list-style: none;
+  padding: 0;
+  margin: 0.5rem 0;
+}
+
+.vote-counts li {
+  color: #e0e0e0;
+  padding: 0.25rem 0;
+}
+
+.eliminated {
+  color: #dc3545;
+  font-weight: bold;
+  margin-top: 0.5rem;
+}
+
+.winner-text {
+  color: #28a745;
+  font-weight: bold;
+  margin-top: 0.5rem;
+}
+
+.total-votes {
+  color: #e0e0e0;
+  margin-top: 1rem;
+  font-size: 1.1rem;
+  text-align: center;
+}

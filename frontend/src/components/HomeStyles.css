@@ -1,13 +1,60 @@
 .home {
-  text-align: center;
-  margin-top: 20px;
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
 }
 
-.home h1 {
+.home-container {
+  background-color: #5a6b5d; /* slightly darker than XANADU */
+  border-radius: 8px;
+  padding: 2rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.home-container h1 {
+  color: #fff;
   font-size: 2rem;
-  margin-bottom: 10px;
+  margin-bottom: 1rem;
+  text-align: center;
 }
 
-.home p {
-  font-size: 1.2rem;
+.home-container h2 {
+  color: #fff;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.home-container p {
+  color: #e0e0e0;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  text-align: center;
+}
+
+.signup-container {
+  text-align: center;
+}
+
+.signup-button {
+  display: inline-block;
+  background-color: #007bff;
+  color: white;
+  padding: 0.75rem 2rem;
+  border-radius: 4px;
+  text-decoration: none;
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin-top: 1rem;
+  transition: background-color 0.2s;
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+}
+
+.signup-button:hover {
+  background-color: #0056b3;
 }

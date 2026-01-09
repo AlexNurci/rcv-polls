@@ -5,25 +5,38 @@
   position: sticky;
   top: 0;
   z-index: 2;
-  background-color: #bcd4de;
+  background-color: #714423;
   padding: 1rem 2rem;
   border-bottom: 1px solid #000;
+}
+
+.nav-brand {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
 }
 
 .nav-brand a {
   font-size: 1.5rem;
   font-weight: bold;
-  color: #333;
+  color: #fff;
   text-decoration: none;
 }
 
 .nav-brand a:hover {
-  color: #007bff;
+  color: #e0e0e0;
+}
+
+.username-greeting {
+  color: #fff;
+  font-size: 1rem;
+  font-weight: normal;
 }
 
 .nav-links {
   display: flex;
   align-items: center;
+  gap: 1rem;
 }
 
 .auth-links {
@@ -33,7 +46,7 @@
 }
 
 .nav-link {
-  color: #666;
+  color: #fff;
   text-decoration: none;
   padding: 0.5rem 1rem;
   border-radius: 4px;
@@ -41,8 +54,8 @@
 }
 
 .nav-link:hover {
-  color: #007bff;
-  background-color: #e9ecef;
+  color: #fff;
+  background-color: rgba(255, 255, 255, 0.2);
 }
 
 .user-section {
@@ -57,13 +70,14 @@
 }
 
 .logout-btn {
-  background-color: #dc3545;
+  background-color: #dc3545; /* red */
   color: white;
   border: none;
   padding: 0.5rem 1rem;
   border-radius: 4px;
   cursor: pointer;
   font-size: 0.875rem;
+  font-weight: bold;
   transition: background-color 0.2s;
 }
 
